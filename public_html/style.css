@@ -1,0 +1,254 @@
+@font-face{
+
+font-family: 'MyWebFont';
+
+
+src:  url('../font/OpenSans-Regular.ttf') format('truetype');
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+body{
+    font-family: 'MyWebFont';
+}
+
+	.mytime {
+		color: gray;
+		font-style: italic;
+		font-size: 12px;
+		float: right;
+	}
+	
+	.msg p{
+		font-size: 18px;
+	}
+	
+	.msg {
+		max-width: 600px;	
+		background: aliceblue;	
+	}
+	
+	.textbody{
+		max-width: 650px;	
+		max-height: 550px;
+		overflow-y:scroll;	
+	}
+	
+	.text-nikname{
+		color: red;	
+	}
+	
+	.form_nikname{
+		font-size: 22px;	
+		color: blue;
+		float: left;
+	}
+
+	.exitform{
+		float: left;
+		display: block;
+		width: 100%;	
+	}
+
+	.prfedit{
+		margin-right: 50px;
+	}
+	/*start*/
+	.regform {
+		text-align: center;	
+	}
+
+	.signinform	{
+		text-align: center;	
+	}
+	.servise_msg{
+		display: block;
+		text-align: center;
+	}
+
+	/*reg*/
+	#regform {
+		text-align: center;	
+		display: block;
+	}
+
+	#signinform {
+		text-align: center;	
+		display: block;
+	}
+
+	#result_form{
+		text-align: center;	
+	}
+
+	.iserror{
+		color: red;
+		font-style: italic;
+	}
+
+	.nobloked{
+		color: green;
+	}
+
+	.bloked{
+	color: red;	
+	}
+
+	.userbord{
+		border:  2px solid #b6b6b6;
+        padding: 10px;
+        border-collapse: collapse;
+        margin: 0 auto;
+
+	}
+
+	.userbord tbody{
+		border-collapse: separate;
+		margin: 0 auto;
+	}
+
+	.tabhead{
+		color: #2d4199;
+	/*border: 2px solid #b6b6b6;	*/
+	background: aquamarine;
+	}
+
+	.tabhead th, .userbord td{
+	border: 2px solid #b6b6b6;	
+	padding: 3px 5px 3px 5px;	
+	}
+	.cwhite{
+	background:none;
+	}
+	.cgrey{
+	background:#f2f2f2;	
+	}
+	.smallgray{
+		color: gray; 
+		font-size: 12px;
+	}
+	.showart{
+		display: block;
+		max-width: 70%;
+		margin: 0 auto;
+	}
+	.aticcontent{
+		text-align:inherit;
+		text-align: left !important ; 
+
+	}
+    .helpimg{
+     width: 24px;
+     height: 24px;
+    }
+    .MainCat{
+	background: #101168;
+	color: white;
+    }   
+    .mainboard {
+      margin-left: 30px;
+    }
+    .mainboard td{
+     border-bottom: 1px solid #ccc;
+    }
+    .Cat1{
+	background: #ececec;
+	
+    }   
+ .Cat-1{
+	background: #fff;
+	
+    }   
+   .catTabl{
+   	margin-left: 15px;
+   	border-collapse: separate;
+   	font-size: 14px;
+   }
+   .atrselect{
+          width: 250px;
+          font-size: 12px;
+   }
+   .atrname{
+     width: 250px;  
+   }
+   .smalltext{
+   font-size: 10px;
+   color: gray; 
+   }
+   .trchng1{
+       background: #f7f7f7;
+   }
+    .trchng-1{
+       background: #fff;
+   }
+   
+    /* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  /*font-family: Arial;*/
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+.select-selected {
+  background-color: DodgerBlue;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: #fff transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: rgba(0, 0, 0, 0.1);
+} 
+.colour-grey{
+    color :grey; 
+}
+.colour-blue{
+    color :blue; 
+}
+.colour-red{
+    color :red; 
+}
